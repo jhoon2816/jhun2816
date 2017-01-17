@@ -17,7 +17,7 @@ function generate(){
 /* 배열 안에 nubmer가 포함되어 있는지 확인 */	
 function contain(numbers, number){
 	for(var i = 0 ;i < numbers.length; i++){
-		if(number[i] == number) return true;
+		if(numbers[i] == number) return true;
 	}
 	return false;
 }
